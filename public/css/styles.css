@@ -9,16 +9,51 @@ html {
   box-sizing: border-box;
 }
 
+.card {
+  padding: 5px 15px;
+}
+
+.main-wrapper {
+  padding-left: 350px;
+}
+
+@media only screen and (max-width : 992px) {
+  .main-wrapper {
+    padding-left: 0;
+  }
+}
+
+.side-nav {
+  width: 300px;
+}
+
+.sidebar-brand {
+  pointer-events: none;
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 
 /* Sidebar Styles */
+/*.sidebar {
+  background-color: #1a1a1a;
+  background-size: cover;
+  display: inline-block;
+  height: auto;
+}
 
-/*.sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
+#sidebar-wrapper {
+  height: 100%;
+}
+
+.sidebar-nav {
     margin: 0;
     padding: 0;
     list-style: none;
+    bottom: 0;
 }
 
 .sidebar-nav li {
