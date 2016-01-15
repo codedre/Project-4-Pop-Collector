@@ -1,6 +1,6 @@
 <div class="row">
 
-    <div class="card col s12 m6 l3" data-ng-repeat="pop in PopVM.pops">
+    <div class="card col s12 m6 l3" data-ng-repeat="pop in PopVM.pops | filter:query">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" data-ng-src="{{pop.photoUrl}}">
       </div>

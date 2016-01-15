@@ -26,9 +26,18 @@ html {
 }
 
 @media only screen and (max-width : 992px) {
-  .main-wrapper {
-    padding-left: 0;
+.main-wrapper {
+    padding-left: 40px;
   }
+}
+
+nav {
+  background-color: #1a1a1a;
+  padding-left: 300px;
+}
+
+.mdi-navigation-menu {
+  padding-left: 10px;
 }
 
 .side-nav {
@@ -36,6 +45,26 @@ html {
   overflow: hidden;
   left: 0;
   position: fixed;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: none;
+  box-shadow: none;
+}
+
+#search {
+  text-indent: 10px;
 }
 
 /*li.search {

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Pop Collector</title>
+    <base href="http://localhost:8080/" />
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
@@ -28,8 +29,9 @@
 
   </head>
   <body>
-
-    <side-panel></side-panel>
+    <header>
+      <side-panel></side-panel>
+    </header>
     <div class="main-wrapper">
         <main data-ui-view></main>
     </div>

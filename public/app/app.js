@@ -8,12 +8,15 @@
     ])
     .config([
       '$stateProvider',
+      '$locationProvider',
       Router
     ]);
 
 
 
-    function Router($stateProvider) {
+    function Router($stateProvider, $locationProvider) {
+      $locationProvider.html5Mode(true);
+      
       $stateProvider
         .state('popIndex', {
           url: '/',
