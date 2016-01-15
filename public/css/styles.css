@@ -5,16 +5,24 @@ html {
 }
 
 .card img {
-  padding: 60px;
+  padding: 50px;
   box-sizing: border-box;
 }
 
-.card {
-  padding: 5px 15px;
+.card .card-image {
+  width: 350px;
+  height: 280px;
 }
 
+.card .card-title {
+  font-size: 22px;
+}
+/*.card {
+  margin: 5px 15px;
+}*/
+
 .main-wrapper {
-  padding-left: 350px;
+  padding: 30px 40px 0 350px;
 }
 
 @media only screen and (max-width : 992px) {
@@ -25,52 +33,78 @@ html {
 
 .side-nav {
   width: 300px;
+  overflow: hidden;
+  left: 0;
+  position: fixed;
 }
 
-.sidebar-brand {
-  pointer-events: none;
-  height: 65px;
-  font-size: 18px;
-  line-height: 60px;
-  margin-bottom: 15px;
-  text-align: center;
+/*li.search {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 120px;
+  margin-top: 1px;
+  padding: 1px 0 0 0;
 }
+
+li.my-collection {
+  margin-top: 87px;
+}
+
+.search-wrapper {
+  margin: 0 12px;
+  transition: margin .25s ease;
+}
+
+#search {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  padding: 0 45px 0 15px;
+  border: none !important;
+}
+
+.search-wrapper i.material-icons {
+  position: absolute;
+  top: -2px;
+  right: 10px;
+  cursor: pointer;
+  color: #1a1a1a;
+}*/
 
 
 /* Sidebar Styles */
-/*.sidebar {
-  background-color: #1a1a1a;
-  background-size: cover;
-  display: inline-block;
-  height: auto;
+
+.side-nav a, .side-nav li {
+  padding: 0 !important;
 }
 
-#sidebar-wrapper {
-  height: 100%;
+.side-nav.fixed a {
+  color: #fff;
 }
 
 .sidebar-nav {
     margin: 0;
-    padding: 0;
-    list-style: none;
-    bottom: 0;
+    background-color: #3F51B5;
 }
 
 .sidebar-nav li {
-    text-indent: 20px;
+    text-indent: 40px;
     line-height: 40px;
 }
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
+    color: #212121;
+    background: rgba(255,193,7,0.7);
 }
 
 .sidebar-nav li a:active,
@@ -82,13 +116,12 @@ html {
     height: 65px;
     font-size: 18px;
     line-height: 60px;
+    pointer-events: none;
+    margin-bottom: 15px;
+    /*text-align: center;*/
+    /*text-indent: 0;*/
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
     color: #fff;
-    background: none;
-}*/
+}

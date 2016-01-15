@@ -7,6 +7,7 @@
       return {
         templateUrl: 'components/sidePanel/sidePanel.html',
         restrict: 'E',
+        replace: true,
         link: function (scope, element, attrs) {
           scope.toggleMenu = function() {
             $('.button-collapse').sideNav({
