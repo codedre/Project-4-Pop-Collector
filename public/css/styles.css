@@ -25,16 +25,25 @@ html {
   padding: 30px 40px 0 350px;
 }
 
-@media only screen and (max-width : 992px) {
-.main-wrapper {
-    padding-left: 40px;
-  }
-}
-
 nav {
   background-color: #1a1a1a;
   padding-left: 300px;
 }
+
+@media only screen and (max-width : 992px) {
+  .main-wrapper {
+    padding: 0 0 0 40px;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  .nav-wrapper {
+    display: none;
+  }
+}
+
 
 .mdi-navigation-menu {
   padding-left: 10px;
@@ -47,6 +56,7 @@ nav {
   position: fixed;
 }
 
+/* Materialize override*/
 input:not([type]):focus:not([readonly]),
 input[type=text]:focus:not([readonly]),
 input[type=password]:focus:not([readonly]),
@@ -63,47 +73,23 @@ textarea.materialize-textarea:focus:not([readonly]) {
   box-shadow: none;
 }
 
-#search {
-  text-indent: 10px;
-}
-
-/*li.search {
+.fixed-action-btn {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 120px;
-  margin-top: 1px;
-  padding: 1px 0 0 0;
+  right: 6px;
+  bottom: 6px;
 }
 
-li.my-collection {
-  margin-top: 87px;
-}
-
-.search-wrapper {
-  margin: 0 12px;
-  transition: margin .25s ease;
+.btn-floating {
+  z-index: 30;
 }
 
 #search {
-  display: block;
-  font-size: 16px;
-  font-weight: 300;
-  width: 100%;
-  height: 45px;
-  margin: 0;
-  padding: 0 45px 0 15px;
-  border: none !important;
+  text-indent: 20px;
 }
 
-.search-wrapper i.material-icons {
-  position: absolute;
-  top: -2px;
-  right: 10px;
-  cursor: pointer;
-  color: #1a1a1a;
-}*/
-
+.search-icon {
+  padding-left: 10px;
+}
 
 /* Sidebar Styles */
 

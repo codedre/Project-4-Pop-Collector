@@ -2,8 +2,8 @@
   {
     "name": "Boba Fett (Prototype Armor)",
     "series": "Star Wars",
-    "variant": "Regular",
-    "variantOwner": "",
+    "variant": "Exclusive",
+    "variantOwner": "Walgreens",
     "funkoLine": "Pop! Star Wars",
     "lineNumber": "08",
     "photoUrl": "http://www.poppriceguide.com/guide/itmimg/4616_bobafettprototypearmor.jpg",
@@ -80,7 +80,7 @@
     "tradingUsers": []
   },
   {
-    "name": "Han Solo",
+    "name": "Spider-Man",
     "series": "Marvel Universe",
     "variant": "Regular",
     "variantOwner": "",
@@ -128,6 +128,145 @@
     "lineNumber": "57",
     "photoUrl": "http://popvinyls.com/wp-content/uploads/2014/02/fugitive4.jpg",
     "tradingUsers": []
+  },
+  {
+    "name":"Asuna",
+    "funkoLine":"Pop! Animation",
+    "series":"Sword Art Online",
+    "variantOwner": "Hot Topic",
+    "variant":"Exclusive",
+    "lineNumber":"81",
+    "photoUrl":"http://www.entertainmentearth.com/images/AUTOIMAGES/FU6353lg.jpg",
+    "tradingUsers": []
+  },
+  {
+    "name":"Frieza (Final Form)",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner": "",
+    "variant":"Regular",
+    "lineNumber":"12",
+    "photoUrl":"http://www.bbtoystore.com/mm5/funko/FKO_3994_540x540.jpg",
+    "tradingUsers": []
+  },
+  {
+    "name":"Goku",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner":"Hot Topic",
+    "variant":"Exclusive",
+    "lineNumber":"09",
+    "photoUrl":"http://ecx.images-amazon.com/images/I/410bpskPGZL.jpg",
+    "tradingUsers":[]
+  },
+  {
+    "name":"Golden Frieza",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner":"SDCC",
+    "variant":"Exclusive",
+    "lineNumber":"47",
+    "photoUrl":"http://cdn6.bigcommerce.com/s-qqz6l92y/products/230/images/459/GoldenFrieza__67288.1437322622.1280.1280.jpg?c=2",
+    "tradingUsers": []
+  },
+  {
+    "name":"Golden Frieza (Red Eyes)",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner": "FUNimation",
+    "variant":"Exclusive",
+    "lineNumber":"47",
+    "photoUrl":"http://www.poppriceguide.com/guide/itmimg/4131_goldenfriezaredeyes.jpg",
+    "tradingUsers":[]
+  },
+  {
+    "name":"Kirito",
+    "funkoLine":"Pop! Animation",
+    "series":"Sword Art Online",
+    "variantOwner":"Hot Topic",
+    "variant":"Exclusive",
+    "lineNumber":"82",
+    "photoUrl":"http://www.entertainmentearth.com/images/AUTOIMAGES/FU6354lg.jpg",
+    "tradingUsers":[]
+  },
+  {
+    "name":"Perfect Cell",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner":"",
+    "variant":"Regular",
+    "lineNumber":"13",
+    "photoUrl":"http://cdn.shopify.com/s/files/1/0552/1401/products/3992_DragonBallZ_-_Perfect_Cell_GLAM_1024x1024.jpg?v=1406919753",
+    "tradingUsers":[]
+  },
+  {
+    "name":"Piccolo",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner":"",
+    "variant":"Regular",
+    "lineNumber":"11",
+    "photoUrl":"http://cdn.shopify.com/s/files/1/0552/1401/products/3993_DragonBallZ_-_Piccolo_GLAM_1024x1024.jpg?v=1406920368",
+    "tradingUsers":[]
+  },
+  {
+    "name":"Planet Arlia Vegeta",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner":"Toy Tokyo",
+    "variant":"Exclusive",
+    "lineNumber":"10",
+    "photoUrl":"http://www.funkopopcollector.com/sites/default/files/arliavegeta.jpg",
+    "tradingUsers":[]
+  },
+  {
+    "name":"Super Saiyan God Goku",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner":"FUNimation",
+    "variant":"Exclusive",
+    "lineNumber":"24",
+    "photoUrl":"http://ecx.images-amazon.com/images/I/61SmMSQ6SdL._SY355_.jpg",
+    "tradingUsers":[]
+  },
+  {
+    "name":"Super Saiyan Goku",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner":"",
+    "variant":"Regular",
+    "lineNumber":"14",
+    "photoUrl":"http://www.whyrll.com/wp-content/uploads/2014/11/Funko-POP-Anime-Dragonball-Z-Super-Saiyan-Goku-Action-Figure.jpg",
+    "tradingUsers":[]
+  },
+  {
+    "name":"Super Saiyan Goku (Glow)",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner":"Entertainment Earth",
+    "variant":"Exclusive",
+    "lineNumber":"14",
+    "photoUrl":"http://www.entertainmentearth.com/images/AUTOIMAGES/FU5040Rlg.jpg",
+    "tradingUsers":[]
+  },
+  {
+    "name":"Vegeta",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner":"",
+    "variant":"Regular",
+    "lineNumber":"10",
+    "photoUrl":"http://ecx.images-amazon.com/images/I/81juMt8ZGHL._SX450_.jpg",
+    "tradingUsers":[]
+  },
+  {
+    "name":"Vegeta (Metallic)",
+    "funkoLine":"Pop! Animation",
+    "series":"Dragon Ball Z",
+    "variantOwner":"SDCC" ,
+    "variant":"Exclusive",
+    "lineNumber":"10",
+    "photoUrl":"http://ecx.images-amazon.com/images/I/51GVEuGjwSL._SX425_.jpg",
+    "tradingUsers":[]
   }
-
 ]

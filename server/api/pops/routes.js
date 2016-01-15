@@ -5,10 +5,10 @@ var bodyParser              = require("body-parser");
 var methodOverride          = require("method-override");
 
 router.get('/api/pops', controller.index);
-// router.get('/:id', controller.show);
+router.get('/api/pops/:id', controller.show);
 // router.post('/', controller.create);
-// router.put('/:id', controller.update);
-// router.patch('/:id', controller.update);
-// router.delete('/:id', controller.destroy);
+router.put('/api/pops/:id', controller.update);
+router.patch('/api/pops/:id', controller.update);
+router.delete('/api/pops/:id', controller.destroy);
 
 module.exports = router;
